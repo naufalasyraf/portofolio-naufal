@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+/* Header Section */
+.navbar__contact-btn {
+  background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+}
+
+.navbar__contact-btn:hover {
+  background: linear-gradient(270deg, #e73587 0%, #8c32f0 100%);
+}
+
+/* Hero Section */
+.hero__btn {
+  background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+}
+
+/* About Section */
+#about {
+  background: linear-gradient(270deg, white 95%, #020e35 5%);
+  border-bottom-left-radius: 75% 100px;
+  border-bottom-right-radius: 0% 100px;
+}
+
+
+.swiper {
+  max-width: 1120px;
+}
+
+.card {
+  font-family: "Poppins", sans-serif;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card__image-content {
+  position: relative;
+  row-gap: 5px;
+  padding: 25px 0;
+}
+
+.image-content__overlayFrst {
+  background-color: antiquewhite;
+  border-radius: 31px 31px 0 31px;
+}
+
+.image-content__overlayFrst::before,
+.image-content__overlayFrst::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  height: 40px;
+  width: 40px;
+  background-color: antiquewhite;
+}
+
+.image-content__overlayFrst::after {
+  border-radius: 0 25px 0 0;
+  background-color: #fff;
+}
+
+.image-content__overlayScnd {
+  background-color: lightblue;
+  border-radius: 31px 31px 0 31px;
+}
+
+.image-content__overlayScnd::before,
+.image-content__overlayScnd::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  height: 40px;
+  width: 40px;
+  background-color: lightblue;
+}
+
+.image-content__overlayScnd::after {
+  border-radius: 0 25px 0 0;
+  background-color: #fff;
+}
+
+.courseText {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.body-content__button {
+  background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+}
+
+.swiper-navBtn {
+  color: #e73587;
+  transition: color 0.3s ease;
+}
+
+.swiper-navBtn:hover {
+  color: #8c32f0;
+}
+
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+  font-size: 35px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #fff;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #4070f4;
+}
+
+/*  */
+.project {
+  background-color: #020e35;
+  color: white;
+}
+
+
+
+.footers {
+  background-color: #020e35;
+}
+
+.btnn {
+  background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+}
+
+.footer-item ul {
+  color: #fff;
+}
+
+.oke {
+  width: 100%;
+  height: auto;
+}
+
+.main {
+  background-color: #020e35;
+}

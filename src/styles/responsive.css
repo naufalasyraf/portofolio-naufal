@@ -1,0 +1,19 @@
+/* Hero Responsive */
+@media screen and (max-width: 425px) {
+  .hero__img {
+    display: none;
+  }
+}
+
+/* Services Responsive */
+@media screen and (max-width: 768px) {
+  #services {
+    background: linear-gradient(180deg, white 56.75%, #020e35 43.25%);
+  }
+  .swiper-content {
+    margin: 0 10px;
+  }
+  .swiper-navBtn {
+    display: none;
+  }
+}
